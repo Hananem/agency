@@ -24,17 +24,9 @@ export default function Services() {
     <div className="">
       <ServicesIntro/>
      
-      <Viewourwork/>
-      <ServicesFAQ/>
-      <WhatToExpect/>
-      <AboutRebelRiot/>
-      <CuratingBrandCTA/>
-      <TeamCards/>
-      <MeetFounder/>
-      <WhatWeStandFor/>
-      <ServicesIntro/>
-       
+      
        <ServicesSection/>
+       <WhatToExpect/>
        <OurPhilosophy/>
 
        <ReadyToConnect/>

@@ -37,7 +37,7 @@ export default function ContactUs() {
       <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] bg-neutral-900 flex items-center justify-center overflow-hidden">
         {/* Hero Background Image */}
         <Image
-          src="/hero-contact.jpg" // Replace with your image_5fab49.jpg asset path
+          src="/contact.jpg" // Replace with your image_5fab49.jpg asset path
           alt="Contact Us Background"
           fill
           priority

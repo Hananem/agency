@@ -11,7 +11,6 @@ export default function Navbar() {
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contact', isUnderlined: true }, // Highlighted contact link from the image
-    { name: 'Blog', href: '/blog' },
   ];
 
   return (

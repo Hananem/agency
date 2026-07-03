@@ -1,21 +1,13 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer() {
   // Navigation Links matching image_6075bb.jpg
-  const navLinks = ['Home', 'About', 'Services', 'Portfolio', 'Blog', 'Contact'];
+  const navLinks = ['Home', 'About', 'Services', 'Portfolio',  'Contact'];
 
   // Showcase Images (Replicating the 6 square grid strip)
-  const gridImages = [
-    { src: '/path-to-image1.jpg', alt: 'Portrait model' },
-    { src: '/path-to-image2.jpg', alt: 'Food styling' },
-    { src: '/path-to-image3.jpg', alt: 'Fisheye group shot' },
-    { src: '/path-to-image4.jpg', alt: 'Sneakers/couch detail' },
-    { src: '/path-to-image5.jpg', alt: 'Editorial sitting pose' },
-    { src: '/path-to-image6.jpg', alt: 'Party group fisheye' },
-  ];
+
 
   return (
     <footer className="w-full bg-[#EBD956] text-[#4A442D] pt-16 pb-6 px-6 sm:px-12 md:px-16 lg:px-20 font-sans">
@@ -35,19 +27,7 @@ export default function Footer() {
         </nav>
 
         {/* Row 2: Image Grid Strip */}
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-4 py-10">
-          {gridImages.map((img, i) => (
-            <div key={i} className="relative aspect-square w-full overflow-hidden bg-stone-800">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover transition-transform duration-300 hover:scale-105"
-                sizes="(max-w-768px) 33vw, 16vw"
-              />
-            </div>
-          ))}
-        </div>
+       
 
         {/* Row 3: Info & Socials */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 py-6 border-t border-[#4A442D]/10">

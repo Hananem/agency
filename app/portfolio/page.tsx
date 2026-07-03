@@ -19,30 +19,21 @@ import FAQAccordion from '@/components/FAQAccordion';
 import ProcessSteps from '@/components/ProcessSteps';
 import ManifestoSection from '@/components/ManifestoSection';
 import OurWork from '@/components/OurWork';
+import FeaturedWorkSticky from '@/components/FeaturedWorkSticky';
 
 
 export default function Portfolio() {
   return (
     <div className="">
       <ServicesIntro/>
-     
-      <Viewourwork/>
+     <ManifestoSection/>
+  
+       <OurWork/>
+       <FeaturedWorkSticky/>
       <ServicesFAQ/>
-      <WhatToExpect/>
-      <AboutRebelRiot/>
-      <CreateMagic/>
-      <CuratingBrandCTA/>
-      <TeamCards/>
-      <MeetFounder/>
-      <WhatWeStandFor/>
-      <ServicesIntro/>
-       
-       <ServicesSection/>
-       <OurPhilosophy/>
 
        <ReadyToConnect/>
-       <OurWork/>
-       <ManifestoSection/>
+
       
     </div>
   );

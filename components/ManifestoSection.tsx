@@ -30,7 +30,7 @@ export default function ManifestoSection() {
         <div className="md:col-span-5 w-full pt-0 md:pt-24 flex justify-end">
           <div className="relative w-full max-w-md aspect-square overflow-hidden shadow-sm">
             <Image
-              src="/path-to-fries-image.jpg" // استبدل بمسار صورتك الحقيقي (الملف المرجعي للفكرة)
+              src="/Wallpaper.jpeg" // استبدل بمسار صورتك الحقيقي (الملف المرجعي للفكرة)
               alt="Food styling design and connection details"
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"

@@ -30,18 +30,9 @@ export default function Home() {
       <ServicesFAQ/>
       <AboutRebelRiot/>
       <CuratingBrandCTA/>
-      <TeamCards/>
-      <MeetFounder/>
-      <WhatWeStandFor/>
-      <ServicesIntro/>
-       <WhatToExpect/>
-       <ServicesSection/>
-       <ReadyToConnect/>
-       <OurPhilosophy/>
-       <ContactUs/>
-       <FAQAccordion/>
-       <ProcessSteps/>
-       <FeaturedWorkSticky/>
+     
+     
+      
     </div>
   );
 }
