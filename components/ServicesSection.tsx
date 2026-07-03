@@ -22,7 +22,7 @@ const servicesData: ServiceItem[] = [
     badgeBg: 'bg-[#F3A44B]', // Orange badge
     badgeTextColor: 'text-[#4E4A3F]',
     borderColor: 'border-[#4E4A3F]/30',
-    imageSrc: '/image_2987bd.jpg', // Replace with your image asset path
+    imageSrc: '/riot-3.jpg', // Replace with your image asset path
     features: ["What's Included Goes Here", "What's Included Goes Here", "What's Included Goes Here"],
   },
   {
@@ -33,7 +33,7 @@ const servicesData: ServiceItem[] = [
     badgeBg: 'bg-[#EBD956]', // Yellow badge
     badgeTextColor: 'text-[#4E4A3F]',
     borderColor: 'border-[#4E4A3F]/30',
-    imageSrc: '/image_2987bd.jpg', // Replace with your image asset path
+    imageSrc: '/riot-2.jpg', // Replace with your image asset path
     features: ["What's Included Goes Here", "What's Included Goes Here", "What's Included Goes Here"],
   },
   {
@@ -44,7 +44,7 @@ const servicesData: ServiceItem[] = [
     badgeBg: 'bg-[#8EC5E9]', // Blue badge
     badgeTextColor: 'text-[#4E4A3F]',
     borderColor: 'border-[#4E4A3F]/30',
-    imageSrc: '/image_2987bd.jpg', // Replace with your image asset path
+    imageSrc: '/riot-1.jpg', // Replace with your image asset path
     features: ["What's Included Goes Here", "What's Included Goes Here", "What's Included Goes Here"],
   },
 ];

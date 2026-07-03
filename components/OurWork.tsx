@@ -5,19 +5,19 @@ export default function OurWork() {
   // بيانات الصور (استبدل مسارات الصور بملفاتك الحقيقية)
   const polaroids = [
     {
-      src: '/path-to-left-image.jpg', // الصورة اليسرى (البنت بالفستان الأحمر)
+      src: '/riot-3.jpg', // الصورة اليسرى (البنت بالفستان الأحمر)
       alt: 'Model in cage with red tights',
       rotation: '-rotate-12 translate-x-4 md:translate-x-8 translate-y-4',
       zIndex: 'z-10',
     },
     {
-      src: '/path-to-center-image.jpg', // الصورة المركزية (البنت التي تلمس وجهها)
+      src: '/services-1.jpg', // الصورة المركزية (البنت التي تلمس وجهها)
       alt: 'Portrait of woman with nose ring',
       rotation: 'rotate-0',
       zIndex: 'z-20',
     },
     {
-      src: '/path-to-right-image.jpg', // الصورة اليمنى (البطاطس المقلية)
+      src: '/services-2.jpg', // الصورة اليمنى (البطاطس المقلية)
       alt: 'Fries bowl close up',
       rotation: 'rotate-12 -translate-x-4 md:-translate-x-8 translate-y-6',
       zIndex: 'z-10',

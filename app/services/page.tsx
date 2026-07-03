@@ -28,7 +28,6 @@ export default function Services() {
       <ServicesFAQ/>
       <WhatToExpect/>
       <AboutRebelRiot/>
-      <CreateMagic/>
       <CuratingBrandCTA/>
       <TeamCards/>
       <MeetFounder/>

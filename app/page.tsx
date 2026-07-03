@@ -29,7 +29,6 @@ export default function Home() {
       <Viewourwork/>
       <ServicesFAQ/>
       <AboutRebelRiot/>
-      <CreateMagic/>
       <CuratingBrandCTA/>
       <TeamCards/>
       <MeetFounder/>

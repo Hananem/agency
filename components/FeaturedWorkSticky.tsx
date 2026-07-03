@@ -5,21 +5,21 @@ export default function FeaturedWorkScrollytelling() {
   // مصفوفة الصور مصممة لتبدأ الظهور بعد الشاشة الأولى تماماً (تنطلق من 100vh فما فوق)
   const scrollingImages = [
     {
-      src: '/path-to-fisheye.jpg', // صورة الفتيات (عدسة عين السمكة)
+      src: '/riot-1.jpg', // صورة الفتيات (عدسة عين السمكة)
       alt: 'Fisheye group shot on green couch',
       position: 'top-[110vh] left-[5vw] sm:left-[8vw]',
       width: 'w-[75vw] sm:w-[32vw] max-w-[400px]',
       aspect: 'aspect-[4/5]',
     },
     {
-      src: '/path-to-bubblegum.jpg', // صورة الفتاة مع العلكة
+      src: '/riot-2.jpg', // صورة الفتاة مع العلكة
       alt: 'Woman sitting on a chair with bubblegum',
       position: 'top-[160vh] right-[5vw] sm:right-[10vw]',
       width: 'w-[80vw] sm:w-[38vw] max-w-[460px]',
       aspect: 'aspect-[4/3]',
     },
     {
-      src: '/path-to-fries.jpg', // صورة البطاطس المقلية
+      src: '/riot-3.jpg', // صورة البطاطس المقلية
       alt: 'Close up food styling of fries bowl',
       position: 'top-[210vh] left-[15vw] sm:left-[25vw]',
       width: 'w-[70vw] sm:w-[35vw] max-w-[420px]',

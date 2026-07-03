@@ -9,7 +9,7 @@ export default function ReadyToConnect() {
       <div className="absolute inset-0 w-full h-full">
         {/* Replace "/path-to-your-image.jpg" with your local image reference or image_5f9520.jpg */}
         <Image
-          src="/path-to-your-image.jpg"
+          src="/ready-to-do.jpg"
           alt="Ready to do this background"
           fill
           priority
